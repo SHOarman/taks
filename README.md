@@ -25,27 +25,27 @@ Here is a visual map of the core files:
 
 ```text
 lib/
-├── main.dart                             # Application entry point & Theme configuration
+├── main.dart                             
 ├── controllers/
-│   ├── favorites_controller.dart         # GetX controller for managing favorite products state
-│   └── product_controller.dart           # GetX controller for fetching and managing product data
+│   ├── favorites_controller.dart         
+│   └── product_controller.dart          
 ├── data/
 │   ├── models/
-│   │   └── product_model.dart            # Data model representing a Product
+│   │   └── product_model.dart         
 │   ├── providers/
-│   │   └── api_provider.dart             # API layer for executing HTTP requests to the backend
+│   │   └── api_provider.dart             
 │   └── repositories/
-│       └── product_repository.dart       # Repository layer to abstract data fetching from providers
+│       └── product_repository.dart      
 ├── utils/
-│   └── local_storage.dart                # Utility for interacting with SharedPreferences (local data)
+│   └── local_storage.dart               
 └── views/
     ├── product_details/
-    │   └── product_details_screen.dart   # Screen displaying full details of a specific product
+    │   └── product_details_screen.dart  
     └── product_list/
-        ├── product_list_screen.dart      # Main screen displaying the catalog list
+        ├── product_list_screen.dart     
         └── widgets/
-            ├── product_card.dart         # Reusable UI widget for individual products in the list
-            └── search_bar_widget.dart    # Reusable UI widget for the search bar
+            ├── product_card.dart         
+            └── search_bar_widget.dart    
 ```
 
 ## Getting Started
